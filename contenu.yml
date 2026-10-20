@@ -1,0 +1,19 @@
+name: ✏️ Corriger une information
+description: Une faute, une information inexacte ou un contenu à mettre à jour.
+title: "[Contenu] "
+labels: ["contenu"]
+body:
+  - type: input
+    id: emplacement
+    attributes:
+      label: Où se trouve l'information ?
+      placeholder: "Ex. page Services, section « Comment ça se passe »"
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Que faut-il corriger ?
+      description: Texte actuel et texte proposé.
+    validations:
+      required: true

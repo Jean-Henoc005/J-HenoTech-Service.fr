@@ -1,0 +1,29 @@
+name: ✨ Proposer une amélioration
+description: Une idée pour améliorer le contenu, le design ou l'accessibilité du site.
+title: "[Idée] "
+labels: ["amélioration"]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type d'amélioration
+      options:
+        - Contenu (texte, projets, compétences)
+        - Design / mise en page
+        - Accessibilité
+        - Performance
+        - Référencement (SEO)
+        - Autre
+    validations:
+      required: true
+  - type: textarea
+    id: idee
+    attributes:
+      label: Votre proposition
+      description: Que faudrait-il changer ou ajouter, et pourquoi ?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives envisagées (facultatif)

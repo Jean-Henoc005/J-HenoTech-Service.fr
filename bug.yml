@@ -1,0 +1,47 @@
+name: 🐞 Signaler un problème
+description: Un affichage cassé, un lien mort, une image manquante ou un comportement inattendu sur le site.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de prendre le temps de signaler un problème. Plus la description est précise, plus je peux le corriger vite.
+  - type: dropdown
+    id: page
+    attributes:
+      label: Page concernée
+      options:
+        - Accueil (index.html)
+        - Services (services.html)
+        - Mentions légales
+        - Politique de confidentialité
+        - Menu ou navigation
+        - Autre
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Que se passe-t-il ?
+      description: Décrivez le problème et ce que vous attendiez à la place.
+    validations:
+      required: true
+  - type: textarea
+    id: etapes
+    attributes:
+      label: Comment le reproduire ?
+      placeholder: |
+        1. Ouvrir la page…
+        2. Cliquer sur…
+        3. Constater…
+  - type: input
+    id: appareil
+    attributes:
+      label: Appareil, navigateur et version
+      placeholder: "Ex. Smartphone Android, Chrome ; PC Windows, Firefox"
+  - type: textarea
+    id: capture
+    attributes:
+      label: Capture d'écran (facultatif)
+      description: Glissez une image ici.
