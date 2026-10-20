@@ -1,0 +1,32 @@
+J-HenoTech — Portfolio final
+================================
+
+Démarrage
+1. Décompressez le ZIP.
+2. Ouvrez index.html dans un navigateur, ou utilisez Live Server dans VS Code.
+3. La page Services est services.html.
+
+Inclus
+- Portfolio et page Services
+- Menu latéral animé avec liens vers les sections/pages
+- Dock de navigation fixe
+- Logo fourni, CV PDF, contact e-mail, GitHub et LinkedIn
+- Pages Mentions légales et Confidentialité (à relire avant publication)
+
+À vérifier avant publication
+- Le site utilise les noms d’images référencés dans index.html pour les photos de profil, projets et paysages. Ces fichiers n’étaient pas tous présents dans les pièces jointes reçues ; ajoutez-les dans images/ pour afficher ces visuels.
+- Remplacez « Établissement à préciser » par le nom exact de votre établissement de BTS.
+- Vérifiez les dates d’expériences et les mentions légales.
+- Les tarifs sont indiqués « Sur devis » pour éviter d’inventer un prix.
+- La zone d’intervention reste à convenir.
+
+Arborescence
+index.html
+services.html
+style.css
+script.js
+CV-Jean-Henoc-Akpa.pdf
+images/henotech-logo.png
+images/favicon.svg
+mentions-legales.html
+confidentialite.html
