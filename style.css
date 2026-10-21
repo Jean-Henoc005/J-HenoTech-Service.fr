@@ -11,18 +11,18 @@
 
    Si la photo est absente, la section reste sur le fond uni.
    ===================================================================== */
-#accueil     { --photo: url("images/paysage-accueil.jpg");     --veil: 0.50; --dim: 0.85; }
-#a-propos    { --photo: url("images/paysage-a-propos.jpg");    --veil: 0.90; --dim: 0.70; }
-#competences { --photo: url("images/paysage-formation.jpg");   --veil: 0.92; --dim: 0.70; }
-#projets     { --photo: url("images/paysage-a-propos.jpg");    --veil: 0.94; --dim: 0.70; }
-#experiences { --photo: url("images/paysage-experiences.jpg"); --veil: 0.90; --dim: 0.70; }
-#formation   { --photo: url("images/paysage-formation.jpg");   --veil: 0.90; --dim: 0.70; }
-#tarifs      { --photo: url("images/paysage-experiences.jpg"); --veil: 0.94; --dim: 0.70; }
-#contact     { --photo: url("images/paysage-accueil.jpg");     --veil: 0.94; --dim: 0.70; }
-.page-hero   { --photo: url("images/paysage-accueil.jpg");     --veil: 0.82; --dim: 0.75; }
-#offres      { --photo: url("images/paysage-formation.jpg");   --veil: 0.94; --dim: 0.70; }
-#etapes      { --photo: url("images/paysage-experiences.jpg"); --veil: 0.94; --dim: 0.70; }
-#a-savoir    { --photo: url("images/paysage-a-propos.jpg");    --veil: 0.94; --dim: 0.70; }
+#accueil     { --photo: url("paysage-accueil.jpg");     --veil: 0.50; --dim: 0.85; }
+#a-propos    { --photo: url("paysage-a-propos.jpg");    --veil: 0.90; --dim: 0.70; }
+#competences { --photo: url("paysage-formation.jpg");   --veil: 0.92; --dim: 0.70; }
+#projets     { --photo: url("paysage-a-propos.jpg");    --veil: 0.94; --dim: 0.70; }
+#experiences { --photo: url("paysage-experiences.jpg"); --veil: 0.90; --dim: 0.70; }
+#formation   { --photo: url("paysage-formation.jpg");   --veil: 0.90; --dim: 0.70; }
+#tarifs      { --photo: url("paysage-experiences.jpg"); --veil: 0.94; --dim: 0.70; }
+#contact     { --photo: url("paysage-accueil.jpg");     --veil: 0.94; --dim: 0.70; }
+.page-hero   { --photo: url("paysage-accueil.jpg");     --veil: 0.82; --dim: 0.75; }
+#offres      { --photo: url("paysage-formation.jpg");   --veil: 0.94; --dim: 0.70; }
+#etapes      { --photo: url("paysage-experiences.jpg"); --veil: 0.94; --dim: 0.70; }
+#a-savoir    { --photo: url("paysage-a-propos.jpg");    --veil: 0.94; --dim: 0.70; }
 
 /* =====================================================================
    PALETTE — une seule couleur d'accent (bleu acier doux)
